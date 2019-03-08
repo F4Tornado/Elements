@@ -27,7 +27,7 @@ function change() {
   compounds.splice(0, compounds.length);
   let ans = random(["element", "mixtureElem", "compound", "mixtureComp", "mixtureAll"]);
   // let ans = "element";
-  let elems = shuffle([[1], [2], [3]]);
+  let elems = shuffle([[1], [2], [3], [1, 1], [2, 2], [3, 3]]);
   let comps = shuffle([[1, 1, 2], [1, 3, 3], [1, 2, 3], [2, 2, 3], [1, 1, 3], [1, 2], [1, 3], [2, 3]]);
   if (ans == "element") {
     console.log("thingy")
