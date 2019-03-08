@@ -1,0 +1,27 @@
+<!DOCTYLE html>
+<html>
+<head>
+  <title>Elements, Compounds, Mixture</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="questions">
+    <button id="1" onclick="correctOrNot(false, 1)">Element</button>
+    <button id="2" onclick="correctOrNot(false, 2)">Mixture of elements</button>
+    <button id="3" onclick="correctOrNot(false, 3)">Compound</button>
+    <button id="4" onclick="correctOrNot(false, 4)">Mixture of compounds</button>
+    <button id="5" onclick="correctOrNot(false, 5)">Mixture of elements and compounds</button>
+  </div>
+  <div id="correct-container" class="feedback">
+    <h1 class="feedbackText">✓</h1>
+    </div>
+    <div id="incorrect-container" class="feedback">
+      <h1 class="feedbackText">X</h1>
+      <p id="whatWentWrong"></p>
+      </div>
+  <script src="sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+* {
+  font-family: Ubuntu, Roboto, sans-serif;
+}
+
+#questions {
+  position:absolute;
+  text-align: center;
+  display: inline-block;
+  width: 100vw;
+  left: 0vw;
+}
+
+button {
+  background-color: rgba(0, 32, 46, 0.4);
+  border: 2px solid #ebebeb;
+  color: #ebebeb;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: rgba(0, 32, 46, 1);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2), 0 17px 50px 0 rgba(0,0,0,0.2);
+  cursor:pointer;
+}
+
+.feedback {
+  position: absolute;
+  background-color: rgba(0, 32, 46, 0.4);
+  border: 2px solid #ebebeb;
+  padding: 16px 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s linear;
+  opacity: 0;
+}
+
+.feedbackText {
+  color: #ebebeb;
+  font-size: 1000%;
+  height: 25%;
+  margin: 0px;
+}
+
+.feedback.anim2 {
+  opacity:1;
+}
+
+#canvas {
+  position:absolute;
+  left:0vw;
+  top:0vh;
+}
